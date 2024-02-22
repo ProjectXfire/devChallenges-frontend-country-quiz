@@ -1,4 +1,6 @@
-import styles from "./block.module.css";
+'use client';
+
+import styles from './block.module.css';
 
 interface Props {
   children: React.ReactNode;
