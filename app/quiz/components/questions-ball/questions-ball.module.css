@@ -1,0 +1,23 @@
+.questions-ball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.questions-ball__ball {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--color-1);
+  border: none;
+  cursor: pointer;
+}
+
+.active-ball {
+  background: var(--linear-gradient);
+}
